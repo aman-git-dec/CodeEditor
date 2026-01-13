@@ -1,0 +1,61 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables (CRITICAL for JWT/Cloudinary keys)
+.env
+.env.local
+.env.*.local
+.env.*
+
+# Runtime data and uploads
+uploads/
+public/uploads/
+data/
+*.db
+*.json~  # Backup files
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+junit.xml
+
+# Build outputs
+build/
+out/
+.next/
+
+# Editor/IDE files
+.vscode/*
+!.vscode/extensions.json
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
